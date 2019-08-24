@@ -16,5 +16,20 @@ namespace tarea
         {
             InitializeComponent();
         }
+
+        private void BtLogin_Click(object sender, EventArgs e)
+        {
+            string nombre = TbName.Text;
+            string contraseña = TbPassword.Text;
+            if (nombre == "Juancho" && contraseña == "123tamarindo")
+            {
+                   MessageBox.Show("Bienvenido al feis de los avengadores");
+               
+            }
+            else
+            {
+                MessageBox.Show("Tas mal mijo");
+            }
+        }
     }
 }

@@ -69,6 +69,7 @@
             this.BtLogin.TabIndex = 2;
             this.BtLogin.Text = "Iniciar sesión";
             this.BtLogin.UseVisualStyleBackColor = false;
+            this.BtLogin.Click += new System.EventHandler(this.BtLogin_Click);
             // 
             // BtExit
             // 
