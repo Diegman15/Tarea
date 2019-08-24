@@ -81,6 +81,7 @@
             this.BtExit.TabIndex = 3;
             this.BtExit.Text = "Salir";
             this.BtExit.UseVisualStyleBackColor = false;
+            this.BtExit.Click += new System.EventHandler(this.BtExit_Click);
             // 
             // TbName
             // 

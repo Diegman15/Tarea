@@ -31,5 +31,10 @@ namespace tarea
                 MessageBox.Show("Tas mal mijo");
             }
         }
+
+        private void BtExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
